@@ -1,4 +1,18 @@
 Alltomminrov::Application.routes.draw do
+  get "user/login"
+
+  get "user/logout"
+
+  get "user/add"
+
+  get "user/delete"
+
+  get "blog/post"
+
+  get "blog/delete"
+
+  get "blog/edit"
+
   get "home/index"
 
   # The priority is based upon order of creation:
