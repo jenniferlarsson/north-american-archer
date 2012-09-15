@@ -7,4 +7,7 @@ class BlogController < ApplicationController
 
   def edit
   end
+
+  def view
+  end
 end

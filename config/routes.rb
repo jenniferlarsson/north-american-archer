@@ -1,4 +1,6 @@
 Alltomminrov::Application.routes.draw do
+  get "blog/view"
+
   get "user/login"
 
   get "user/logout"
@@ -14,6 +16,9 @@ Alltomminrov::Application.routes.draw do
   get "blog/edit"
 
   get "home/index"
+  
+  root :to => 'home#index'
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
