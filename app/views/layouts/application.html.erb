@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	  <title>Alltomminrov</title>
+	  <title>Allt om min röv</title>
 	  <%= stylesheet_link_tag    "application", :media => "all" %>
 	  <%= javascript_include_tag "application" %>
 	  <%= csrf_meta_tags %>
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
-	<div class="container-fluid">
-		<div class="row-fluid">
-			<div class="span2" id="sidebar">
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span2" id="sidebar">
 				<!--Sidebar content-->
-				<p>
-					Sidebar
-				</p>
-			</div>
+					<p>
+						Sidebar
+					</p>
+			 </div>
 			<div class="span10">
-				<%= yield %>
+				 <%= yield %>
 			</div>
 		</div>
 	</body>

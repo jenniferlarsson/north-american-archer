@@ -10,4 +10,8 @@ class BlogController < ApplicationController
 
   def view
   end
+  
+  def all
+  	
+  end
 end
