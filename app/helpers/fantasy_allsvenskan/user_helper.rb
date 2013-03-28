@@ -1,0 +1,2 @@
+module FantasyAllsvenskan::UserHelper
+end

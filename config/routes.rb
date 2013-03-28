@@ -1,4 +1,11 @@
 Alltomminrov::Application.routes.draw do
+  
+  scope :module => "fantasy_allsvenskan" do
+   match "/fantasy_allsvenskan" => "FantasyAllsvenskan#index"
+   match "/fantasyallsvenskan" => "FantasyAllsvenskan#index"
+   
+  end
+
   get "blog/view"
 
   get "user/login"

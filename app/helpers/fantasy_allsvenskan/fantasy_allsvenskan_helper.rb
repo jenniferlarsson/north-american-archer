@@ -1,0 +1,2 @@
+module FantasyAllsvenskan::FantasyAllsvenskanHelper
+end
