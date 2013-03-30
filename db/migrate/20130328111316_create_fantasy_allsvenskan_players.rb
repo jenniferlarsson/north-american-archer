@@ -5,7 +5,7 @@ class CreateFantasyAllsvenskanPlayers < ActiveRecord::Migration
       t.string :first_name
       t.string :last_name
       t.integer :points
-      t.integer :id, :primary_key, :auto_increment
+      t.integer :id
       t.boolean :injured
       t.string :injury
       t.date :return_date

@@ -5,7 +5,7 @@ class CreateFantasyAllsvenskanUsers < ActiveRecord::Migration
       t.string :username
       t.string :teamname
       t.string :password
-      t.integer :id, :auto_increment, :null => false
+      t.integer :id, :null => false
       t.text :squad
       t.integer :points
       t.integer :available_trades
