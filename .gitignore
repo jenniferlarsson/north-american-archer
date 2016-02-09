@@ -16,3 +16,4 @@
 
 #ignore precompiled assets
 /public/assets
+node_modules
