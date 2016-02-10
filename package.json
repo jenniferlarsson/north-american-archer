@@ -20,8 +20,13 @@
     "url": "https://github.com/GustavPersson/north-american-archer/issues"
   },
   "homepage": "https://github.com/GustavPersson/north-american-archer#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "connect": "3.4.1",
+    "gulp": "3.9.1",
+    "gulp-less": "3.0.5",
+    "path": "0.12.7",
+    "require": "2.4.20",
     "serve-static": "1.10.2"
   }
 }
